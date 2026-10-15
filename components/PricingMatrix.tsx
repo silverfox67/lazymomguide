@@ -6,11 +6,11 @@ import { Check, Sparkles, ShieldCheck, ArrowRight, HeartHandshake } from "lucide
 export default function PricingMatrix() {
   const tier1Link =
     process.env.NEXT_PUBLIC_STRIPE_TIER1_LINK ||
-    "https://buy.stripe.com/test_lazymom_tier1";
+    "https://buy.stripe.com/5kQ7sN63S6OL8Cc5NBgnK03";
 
   const tier2Link =
     process.env.NEXT_PUBLIC_STRIPE_TIER2_LINK ||
-    "https://buy.stripe.com/test_lazymom_tier2";
+    "https://buy.stripe.com/6oUaEZ9g47SPg4E7VJgnK04";
 
   return (
     <section id="pricing" className="py-16 md:py-24 bg-cream-50 border-b border-cream-200">
